@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.mat-form-field-underline{
+    background-color:lightgrey !important;
+  }
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.custom-tooltip{
+  min-width: fit-content;
+  background-color: #01A85A!important;
+  color:white !important;
+  min-height: fit-content;
+  font-family:"Montserrat";
+  font-size: 16px;
+}

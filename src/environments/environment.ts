@@ -3,9 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // apiURL: 'https://emc-memo-be-uat.kvbank.in/',
+  // apiURL: ' https://emc-memo-be-sit.kvbank.in/',
+  // apiURL:'http://139.59.32.22:8184/',
+  apiURL:'http://13.200.50.27:8184/',
+  isSkipLocationChange:true
 };
-
+// Starting development server at http://127.0.0.1:8000/
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

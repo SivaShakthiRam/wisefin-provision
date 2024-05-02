@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/font-awesome/css/font-awesome.css",
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css"
+
             ],
             "scripts": []
           },
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wisefin-provision"
+    }
+  },
+  "defaultProject": "wisefin-provision",
+  "cli": {
+    "analytics": "fdcb75c7-7418-407c-9333-b7ee0517f87d"
+  }
 }
